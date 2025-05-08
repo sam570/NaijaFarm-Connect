@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Checkout - NaijaFarm Connect</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>NaijaFarm Connect</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h3 class="section-title">Checkout</h3>
+    <div id="checkout-details">
+        <p>Total Amount: ₦<span id="checkout-total">0</span></p>
+        <button id="paystack-button" class="btn-buy">Pay with Paystack</button>
+    </div>
+</main>
+
+<footer>
+    &copy; 2024 NaijaFarm Connect - All rights reserved. | <a href="#contact">Contact</a>
+</footer>
+
+<script src="checkout.js"></script>
+</body>
+</html>
